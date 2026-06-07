@@ -10,11 +10,33 @@
             background: #f4f4f4;
         }
 
-        header {
+header {
     background: #0a2a66;
     color: white;
-    padding: 20px;
+    padding: 35px 20px;
     text-align: center;
+}
+
+.header-card {
+    display: inline-block;
+}
+
+.site-logo {
+    max-width: 360px;
+    height: auto;
+    background: white;
+    padding: 10px 18px;
+    border-radius: 4px;
+}
+
+.service-area {
+    font-size: 18px;
+    margin: 18px 0 8px 0;
+}
+
+.contact-line {
+    font-size: 18px;
+    margin: 6px 0;
 }
 
         main {
@@ -40,8 +62,21 @@
 <body>
 
 <header>
-   <h1>Technical Support for Small Businesses</h1>
-    <p>Tri-Cities & Metro Vancouver</p>
+    <div class="header-card">
+        <img src="/images/tricities-it-support-logo.png"
+             alt="Tri-Cities IT Support"
+             class="site-logo">
+
+        <p class="service-area">Tri-Cities & Metro Vancouver</p>
+
+        <p class="contact-line">
+            📞 604-537-1600
+        </p>
+
+        <p class="contact-line">
+            ✉️ contact@tricitiesitsupport.ca
+        </p>
+    </div>
 </header>
 
 <main>
