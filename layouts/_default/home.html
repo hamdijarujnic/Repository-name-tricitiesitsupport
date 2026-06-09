@@ -28,6 +28,31 @@ header {
     background: white;
     padding: 10px 18px;
     border-radius: 4px;
+    }
+
+.site-nav {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+.site-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.site-nav a:visited {
+    color: #ffffff;
+}
+
+.site-nav a:hover {
+    color: #dbeafe;
+    text-decoration: underline;
+}
+
+.site-nav span {
+    color: #dbeafe;
 }
 
 .service-area {
@@ -64,9 +89,16 @@ header {
 
 <header>
     <div class="header-card">
-        <img src="/images/tricities-it-support-logo.png"
-             alt="Tri-Cities IT Support"
-             class="site-logo">
+        <a href="/">
+    <img src="/images/tricities-it-support-logo.png"
+         alt="Tri-Cities IT Support"
+         class="site-logo">
+</a>
+              <nav class="site-nav">
+            <a href="/about/">About</a>
+            <span>|</span>
+            <a href="/contact/">Contact</a>
+        </nav>
 
         <p class="service-area">Tri-Cities & Metro Vancouver</p>
 
@@ -132,7 +164,7 @@ project support, or short-term technical assistance.
 
 <p>
 <strong>Email:</strong>
-<a href="mailto:contact@vanmetro.ca">contact@vanmetro.ca</a>
+<a href="mailto:contact@tricitiesitsupport.ca">contact@tricitiesitsupport.ca</a>
 </p>
 </main>
 <footer>

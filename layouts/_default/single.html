@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }} | Tri-Cities IT Support</title>
+    <link rel="icon" type="image/png" href="/images/tc-circle-favicon.png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+        }
+.highlight-box {
+    border-left: 4px solid #d9e6f7;
+    padding-left: 18px;
+    margin: 20px 0;
+    background: #fafcff;
+}
+header {
+    background: #0a2a66;
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.header-card {
+    display: inline-block;
+}
+
+.site-logo {
+    max-width: 360px;
+    height: auto;
+    background: white;
+    padding: 10px 18px;
+    border-radius: 4px;
+}
+
+.site-nav {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.site-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.site-nav a:visited {
+    color: #ffffff;
+}
+
+.site-nav a:hover {
+    color: #dbeafe;
+    text-decoration: underline;
+}
+
+.site-nav span {
+    color: #dbeafe;
+}
+
+.service-area {
+    font-size: 18px;
+    margin: 18px 0 8px 0;
+}
+
+.contact-line {
+    font-size: 16px;
+    margin: 6px 0;
+}
+        a {
+            color: #0a2a66;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-card">
+
+        <a href="/">
+            <img src="/images/tricities-it-support-logo.png"
+                 alt="Tri-Cities IT Support"
+                 class="site-logo">
+        </a>
+
+        <nav class="site-nav">
+            <a href="/about/">About</a>
+            <span>|</span>
+            <a href="/contact/">Contact</a>
+        </nav>
+
+        <p class="service-area">Tri-Cities & Metro Vancouver</p>
+
+        <p class="contact-line">
+            📞 604-537-1600
+        </p>
+
+        <p class="contact-line">
+            ✉️ contact@tricitiesitsupport.ca
+        </p>
+
+    </div>
+</header>
+
+<main>
+    {{ .Content }}
+</main>
+
+</body>
+</html>
