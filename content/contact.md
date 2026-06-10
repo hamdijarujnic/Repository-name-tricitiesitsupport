@@ -18,7 +18,10 @@ Need help with your business technology, network, Microsoft 365, printer, WiFi, 
 
 <form action="https://api.web3forms.com/submit" method="POST">
 
-<input type="hidden" name="access_key" value="6a5d527b-d2da-48e9-870b-1df27dcd0069">
+<input type="hidden" name="access_key"
+value="6a5d527b-d2da-48e9-870b-1df27dcd0069">
+
+<input type="hidden" name="redirect" value="https://tricitiesitsupport.ca/thank-you/">
 
 <label>Name *</label><br>
 <input type="text" name="name" placeholder="Your name" required><br><br>
