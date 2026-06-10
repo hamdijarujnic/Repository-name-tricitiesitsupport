@@ -2,8 +2,16 @@
 <html>
 <head>
     <title>{{ .Title }} | Tri-Cities IT Support</title>
-    <link rel="icon" type="image/png" href="/images/tc-circle-favicon.png">
 
+    <meta name="description" content="
+    {{ if eq .Title "About" }}
+    Learn about Tri-Cities IT Support, providing practical IT support, Microsoft 365 assistance, networking, WiFi, and small business technology services throughout Coquitlam and Metro Vancouver.
+    {{ else if eq .Title "Contact" }}
+    Contact Tri-Cities IT Support for small business IT support, Microsoft 365 help, networking, WiFi troubleshooting, and technical assistance in Coquitlam and Metro Vancouver.
+    {{ end }}">
+
+    <link rel="icon" type="image/png" href="/images/tc-circle-favicon.png">
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -81,6 +89,44 @@ header {
         a {
             color: #0a2a66;
         }
+      form {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fafcff;
+    border-left: 4px solid #d9e6f7;
+    border-radius: 6px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form button {
+    background: #0a2a66;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #123b85;
+}  
     </style>
 </head>
 <body>
