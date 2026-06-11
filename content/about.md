@@ -3,6 +3,11 @@ title: "About"
 ---
 
 ## About Tri-Cities IT Support
+<div class="about-image" style="max-width:500px;margin:20px auto;">
+    <img src="/images/tricities-it-support-remote-help.webp"
+         alt="Tri-Cities IT Support Remote Assistance"
+         style="width:100%;height:auto;border-radius:20px;">
+</div>
 
 Local IT support for small businesses throughout Coquitlam, Port Coquitlam, Port Moody, Burnaby, New Westminster, and Metro Vancouver.
 
