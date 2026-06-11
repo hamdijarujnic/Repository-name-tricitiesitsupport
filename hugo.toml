@@ -1,6 +1,6 @@
 baseURL = "https://tricitiesitsupport.ca/"
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = "Tri-Cities IT Support"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
