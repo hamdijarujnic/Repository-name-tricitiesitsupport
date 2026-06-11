@@ -3,7 +3,7 @@ title: "About"
 ---
 
 ## About Tri-Cities IT Support
-<div class="about-image" style="max-width:500px;margin:20px auto;">
+<div class="about-image" style="max-width:600px;margin:20px auto;">
     <img src="/images/tricities-it-support-remote-help.webp"
          alt="Tri-Cities IT Support Remote Assistance"
          style="width:100%;height:auto;border-radius:20px;">
