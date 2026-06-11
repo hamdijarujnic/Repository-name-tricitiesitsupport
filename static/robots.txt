@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tricitiesitsupport.ca/sitemap.xml
