@@ -6,3 +6,4 @@ title = "Tri-Cities IT Support"
     [markup.goldmark.renderer]
       unsafe = true
 disableKinds = ["taxonomy", "term"]
+[taxonomies]
