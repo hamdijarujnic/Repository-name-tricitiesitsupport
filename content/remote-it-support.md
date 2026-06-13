@@ -3,6 +3,11 @@ title: "Remote IT Support"
 ---
 
 # Remote IT Support for Small Businesses
+<div class="about-image" style="max-width:600px;margin:20px auto;">
+    <img src="/images/tricities-it-support-remote-help.webp"
+         alt="Remote IT Support for Small Businesses"
+         style="width:100%;height:auto;border-radius:20px;">
+</div>
 
 Fast, practical remote IT support for small businesses, professional offices, and remote workers throughout British Columbia and across Canada.
 
