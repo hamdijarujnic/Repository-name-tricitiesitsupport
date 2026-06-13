@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Contact Tri-Cities IT Support for Microsoft 365 support, remote IT assistance, networking, WiFi troubleshooting, Windows support, and small business IT services."
 ---
 
 ## Contact Tri-Cities IT Support

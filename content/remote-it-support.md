@@ -1,5 +1,6 @@
 ---
 title: "Remote IT Support"
+description: "Remote IT support for small businesses, professional offices, and remote workers throughout British Columbia and Canada. Microsoft 365, Outlook, VPN, Windows, networking, and remote troubleshooting support."
 ---
 
 # Remote IT Support for Small Businesses

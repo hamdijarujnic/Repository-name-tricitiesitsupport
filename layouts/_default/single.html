@@ -2,13 +2,7 @@
 <html lang="en">
 <head>
     <title>{{ .Title }} | Tri-Cities IT Support</title>
-
-    <meta name="description" content="
-    {{ if eq .Title "About" }}
-    Learn about Tri-Cities IT Support, providing practical IT support, Microsoft 365 assistance, networking, WiFi, and small business technology services throughout Coquitlam and Metro Vancouver.
-    {{ else if eq .Title "Contact" }}
-    Contact Tri-Cities IT Support for small business IT support, Microsoft 365 help, networking, WiFi troubleshooting, and technical assistance in Coquitlam and Metro Vancouver.
-    {{ end }}">
+    <meta name="description" content="{{ .Params.description }}">
 
     <link rel="icon" type="image/png" href="/images/tc-circle-favicon.png">
     

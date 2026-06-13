@@ -1,5 +1,7 @@
+
 ---
 title: "About"
+description: "Learn about Tri-Cities IT Support, providing practical IT support, Microsoft 365 assistance, networking, WiFi troubleshooting, remote support, and small business IT services throughout Metro Vancouver and Canada."
 ---
 
 ## About Tri-Cities IT Support
